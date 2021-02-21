@@ -35,8 +35,14 @@
     width: 50px;
 }
 .crd{
+    background-color: black;
     margin-top: 370px;
     margin-left: 30%;
     font-size: larger;
     color: black;
+    width: 300px;
+    opacity: 0.6;
+}
+.crd p{
+    color: white;
 }
