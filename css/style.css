@@ -16,6 +16,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden; /* hide overflow content */
 }
 
 .tp h1{
@@ -26,19 +27,20 @@
     font-size: 70px;
 }
 .pause{
-    position: absolute;
+    margin: auto; /* To center the image (this is compatible with all browsers including safari)*/
     text-align: center;
     margin-top: 100px;
-    margin-left: 50%;
     font-size: 50px;
     cursor: pointer;
     width: 50px;
 }
 .crd{
     background-color: black;
-    width: 270px;
-    margin-top: 370px;
-    margin-left: 25%;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     font-size: larger;
     opacity: 0.7;
 }
