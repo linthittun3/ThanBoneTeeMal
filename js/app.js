@@ -1,12 +1,13 @@
 let mySong = document.getElementById("mySong");
 let icon = document.getElementById("icon");
 
+const audio = new Audio('./sound/song.mp3');
 icon.onclick = function(){
-    if(mySong.paused){
-        mySong.play();
+    if(audio.paused){
+        audio.play();
         icon.src = "image/pause.svg";
     }else{
-        mySong.pause();
+        audio.pause();
         icon.src = "image/play.svg";
     }
 }
