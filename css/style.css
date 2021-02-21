@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Stick', sans-serif;
+}
+/* body, html {
+    height: 100%;
+    margin: 0;
+  } */
+.bg{
+    background-image: url("../image/tbt.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.tp h1{
+    color: red;
+    text-align: center;
+    font-family: 'Stick', sans-serif;
+    /* margin-top: 100px; */
+    font-size: 70px;
+}
+.pause{
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50%;
+    font-size: 50px;
+    cursor: pointer;
+    width: 50px;
+}
+.crd{
+    margin-top: 370px;
+    margin-left: 30%;
+    font-size: larger;
+    color: black;
+}
