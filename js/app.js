@@ -1,7 +1,7 @@
 let mySong = document.getElementById("mySong");
 let icon = document.getElementById("icon");
 
-const audio = new Audio('./sound/song.mp3');
+const audio = new Audio('./sound/song1.mp3');
 icon.onclick = function(){
     if(audio.paused){
         audio.play();
