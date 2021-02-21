@@ -10,4 +10,4 @@ icon.onclick = function(){
         audio.pause();
         icon.src = "image/play.svg";
     }
-}
+};
